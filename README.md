@@ -20,7 +20,7 @@ https://musescore.org/en/tutorials.
 
 ## Repertoire listing
 
-❗ : in progress
+❗ : in progress  
 ✅ : completed
 
 ~~~
