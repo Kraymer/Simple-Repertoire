@@ -20,9 +20,6 @@ https://musescore.org/en/tutorials.
 
 ## Repertoire listing
 
-❗ : in progress  
-✅ : completed
-
 | Category | Song | Status |
 |  --- | --- | ---    |
 | Intermediate III | Queen - Somebody to love | 25% |
