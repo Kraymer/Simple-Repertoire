@@ -22,6 +22,6 @@ https://musescore.org/en/tutorials.
 
 | Category | Song | Status |
 |  --- | --- | ---    |
-| Intermediate III | Queen - Somebody to love | 25% |
+| Intermediate III | [Queen - Somebody to love](https://github.com/Kraymer/SimpleRepertoire/tree/main/Repertoire/16-Intermediate_III/Queen-Somebody_to_love) | 25% |
 
 
