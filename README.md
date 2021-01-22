@@ -18,6 +18,8 @@ https://musescore.org/en/tutorials.
 
 ### Contribute
 
+See the [Contributor guide](https://github.com/Kraymer/SimpleRepertoire/wiki/Contributor-guide#submitting-a-new-song-score).
+
 ## Repertoire listing
 
 | Category | Song | Status |
