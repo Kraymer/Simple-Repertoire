@@ -20,33 +20,8 @@ https://musescore.org/en/tutorials.
 
 ## Repertoire listing
 
-❗ : in progress  
-✅ : completed
+| Category | Song | Status |
+|  --- | --- | ---    |
+| Intermediate III | [Queen - Somebody to love](https://github.com/Kraymer/SimpleRepertoire/tree/main/Repertoire/16-Intermediate_III/Queen-Somebody_to_love) | 25% |
 
-~~~
-├── 01-Essentials_I
-├── 02-Essentials_II
-├── 03-Pop_Chords_I
-├── 04-Essentials_III
-├── 05-Chord_Styling_I
-├── 06-Pop_Chords_II
-├── 07-Classical_I
-├── 08-Lead_Sheet_I
-├── 09-Blues_Chords_I
-├── 10-Intermediate_I
-├── 11-Chord_Styling_II
-├── 12-Intermediate_II
-├── 13-Chord_Styling_III
-├── 14-Lead_Sheet_II
-├── 15-Pop_Chords_III
-├── 16-Intermediate_III
-│   └── ❗ Queen-somebody_to_love.musicxml
-├── 17-Lead_Sheet_III
-├── 18-Jazz_Chords_I
-├── 19-Intermediate_IV
-├── 20-Jazz_Chords_II
-├── 21-Slash_Cords
-├── 22-Taste_of_Bach_I
-├── 23-Taste_of_Bach_II
-└── 24-The_Entertainer
-~~~
+
