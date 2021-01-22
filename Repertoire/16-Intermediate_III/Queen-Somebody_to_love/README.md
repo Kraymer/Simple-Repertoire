@@ -1,1 +1,1 @@
-![](Queen-somebody_to_love-1.png)
+![](Queen-somebody_to_love.png)
