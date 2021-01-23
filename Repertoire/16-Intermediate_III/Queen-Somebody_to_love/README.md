@@ -4,6 +4,7 @@
 
 | Editors | Progress                   |
 |  ---    | ---                        |
-| kraymer | 👈 ▮▮▮▯▯▯▯▯▯▯ 👉 ▮▮▮▯▯▯▯▯▯▯|
+| kraymer | 👈 ▮▮▮▮▮▮▮▮▮▮ 👉 ▮▮▮▮▮▮▮▮▮▮|
 
-![](Queen-somebody_to_love.png)
+![](Queen-somebody_to_love-1.png)
+![](Queen-somebody_to_love-2.png)
