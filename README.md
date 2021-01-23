@@ -21,10 +21,10 @@ For the sake of simplicity, only uncompressed MuseScore 3 files (.mscx) will be 
 
 Ready to contribute and share your favourite score ? Great ! 
 
-1. Start by opening a Pull Request titled _`WIP: <Artist> - <Song>`_ to "lock" this song
+1. Start by opening a Pull Request titled _`WIP: <Artist> - <Song>`_ to _lock_ the song
 1. The PR should consists of one single uncompressed MuseScore 3 file (.mscx) obeying the following naming convention : 
    `Repertoire/<category>/<Artist>-<Song>/<Artist>-<Song>.mscx`
-1. Add commits over time and remove the _`WIP: `_ prefix from the PR title to signal completeness
+1. Add commits over time and remove the _`WIP: `_ prefix from the PR title when it's ready to signal completeness
 
 ## Repertoire listing
 
