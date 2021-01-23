@@ -1,3 +1,5 @@
+# Simple-Repertoire
+
 Using [Simply Piano](https://www.joytunes.com/simply-piano) as a learning tool works a wonder but it's actually quite frustrating when you reached ★★★ level on a song to have to use SimplePiano interface to practise it.
 
 With SimpleRepertoire you'll have access to the exact same sheet available in a classical format (.xml, .pdf, .png).
