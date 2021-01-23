@@ -14,7 +14,7 @@ With SimpleRepertoire you'll have access to the exact same sheet available in a 
 
 ### Editing a score sheet
 
-I use [MuseScore 3.6](https://musescore.org/en/3.6) to edit score sheets, it's cross-platform and has great UX.
+I use [MuseScore 3.6](https://musescore.org/en/3.6) to edit score sheets, it's cross-platform and has great UX.  
 For the sake of simplicity, only uncompressed MuseScore 3 files (.mscx) will be accepted for contributions.
 
 ### Uploading a score sheet 
