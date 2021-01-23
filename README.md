@@ -1,24 +1,23 @@
 # SimpleRepertoire
 
-Assumed goal of `SimpleRepertoire` is to gather piano sheets from songs available in SimplePiano app.  
-
-Using SimplePiano as a learning tool works a wonder but it's actually quite frustrating when you reached ★★★ level on a song to have to use SimplePiano interface to practise it.
+Using [Simply Piano](https://www.joytunes.com/simply-piano) as a learning tool works a wonder but it's actually quite frustrating when you reached ★★★ level on a song to have to use SimplePiano interface to practise it.
 
 With SimpleRepertoire you'll have access to the exact same sheet available in a classical format (.xml, .pdf, .png).
 
-## How it works
+## Features
 
-### Edit a .musicxl score
-
-I recommend to submit files edited using *Musescore 3.6* as it is the software that I use.  
-Using other editing software may result into unexpected behaviour if we both edit the file.
-
-Using the *Musescore* can be daunting to use at first, don't hesitate to peruse available tutorials at
-https://musescore.org/en/tutorials.
+- high-fidelity : scores are faithfully replicated from the app
+- single page full-width png output for portable devices  
+- pdf output for prints or ebooks
 
 ### Contribute
 
-See the [Contributor guide](https://github.com/Kraymer/SimpleRepertoire/wiki/Contributor-guide#submitting-a-new-song-score).
+Ready to contribute and share your favourite score ? Great ! 
+
+1. Start by opening a Pull Request titled _`WIP: <Artist> - <Song>`_ to "lock" this song
+1. The PR should consists of one single uncompressed MuseScore 3 file (.mscx) obeying the following naming convention : 
+   `Repertoire/<category>/<Artist>-<Song>/<Artist>-<Song>.mscx`
+1. Add commits over time and remove the _`WIP: `_ prefix from the PR title to signal completeness
 
 ## Repertoire listing
 
