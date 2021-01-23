@@ -350,6 +350,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -438,6 +441,12 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <minDistance>-2.34594</minDistance>
+                <size>12</size>
+                <offset x="-0.169163" y="-2.67677"/>
+                <text>4</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -470,6 +479,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -495,6 +507,10 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <offset x="0.2" y="0"/>
+                <text>4</text>
+                </Fingering>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -502,6 +518,9 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -512,6 +531,10 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <size>12</size>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -604,6 +627,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -696,6 +722,9 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
@@ -731,6 +760,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -755,6 +787,10 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <size>12</size>
+                <text>2</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -825,6 +861,9 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -836,6 +875,10 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <size>12</size>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -921,7 +964,7 @@
             <durationType>quarter</durationType>
             <Note>
               <Fingering>
-                <style>String Number</style>
+                <size>12</size>
                 <text>1</text>
                 </Fingering>
               <pitch>65</pitch>
@@ -965,6 +1008,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -1015,18 +1061,40 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Fingering>
+                <size>12</size>
+                <text>3</text>
+                </Fingering>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
+            <dots>1</dots>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
@@ -2515,10 +2583,16 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2531,10 +2605,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2559,10 +2639,16 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Fingering>
+                <text>3</text>
+                </Fingering>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -2579,6 +2665,9 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -2586,6 +2675,9 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>54</pitch>
               <tpc>20</tpc>
               </Note>
@@ -2598,10 +2690,16 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2614,10 +2712,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2636,10 +2740,16 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Fingering>
+                <text>3</text>
+                </Fingering>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -2652,6 +2762,9 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -2659,6 +2772,9 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>54</pitch>
               <tpc>20</tpc>
               </Note>
@@ -2671,10 +2787,16 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2699,10 +2821,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -2739,6 +2867,9 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -2746,6 +2877,9 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>54</pitch>
               <tpc>20</tpc>
               </Note>
@@ -2762,10 +2896,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2774,10 +2914,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -2790,10 +2936,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2884,10 +3036,16 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -2899,10 +3057,16 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2953,10 +3117,16 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
+              <Fingering>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -3036,10 +3206,18 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
