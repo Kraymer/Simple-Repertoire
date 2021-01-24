@@ -2,8 +2,7 @@
 set -x
 
 repo_path=$1
-cd /home/runner/work/Simple-Repertoire/
-cd $repo_path
+cd /github/workspace
 
 echo "Hello " "$@"
 
