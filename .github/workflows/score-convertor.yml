@@ -31,7 +31,7 @@ jobs:
           # Default: 'space-delimited'
           format: 'space-delimited'
 
-      - name: Convert step
+      - name: Convert score to images
         # runs:
         #   using: 'docker'
         #   image: 'Dockerfile'
