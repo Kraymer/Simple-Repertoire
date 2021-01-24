@@ -35,6 +35,7 @@ jobs:
         uses: ./ # Uses an action in the root directory
         id: convert
         with:
+          workspace: ${{ github.workspace }}
           diff-files: ${{ steps.files.outputs.added_modified }}
 
 
