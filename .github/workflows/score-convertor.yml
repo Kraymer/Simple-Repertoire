@@ -33,6 +33,8 @@ jobs:
 
       - name: Convert step
         uses: ./ # Uses an action in the root directory
-        id: convert ${{ steps.files.outputs.added_modified }}
+        id: convert
+        with:
+          diff-files: ${{ steps.files.outputs.added_modified }}
 
 

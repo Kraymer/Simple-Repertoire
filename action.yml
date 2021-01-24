@@ -1,16 +1,16 @@
 # action.yml
 name: '.mscx converter'
 description: 'convert .mscx to png and pdf'
-# inputs:
-#   who-to-greet:  # id of input
-#     description: 'Who to greet'
-#     required: true
-#     default: 'World'
+inputs:
+  diff-files:  # id of input
+    description: 'List of modified files'
+    required: true
+    default: ''
 # outputs:
 #   time: # id of output
 #     description: 'The time we greeted you'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  # args:
-  #   - ${{ inputs.who-to-greet }}
+  args:
+    - ${{ inputs.diff-files }}
