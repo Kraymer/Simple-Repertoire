@@ -5,4 +5,4 @@ FROM musescore/musescore-x86_64
 COPY .github/convert.sh /convert.sh
 
 # Executes `entrypoint.sh` when the Docker container starts up
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/convert.sh"]
