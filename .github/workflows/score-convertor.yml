@@ -32,10 +32,16 @@ jobs:
           format: 'space-delimited'
 
       - name: Convert step
-        uses: ./ # Uses an action in the root directory
-        id: convert
-        with:
-          workspace: ${{ github.workspace }}
-          diff-files: ${{ steps.files.outputs.added_modified }}
+        runs:
+          using: 'docker'
+          image: 'Dockerfile'
+          args:
+            - ${{ github.workspace }}
+            - ${{ steps.files.outputs.added_modified }}
+      #   uses: ./ # Uses an action in the root directory
+      #   id: convert
+      #   with:
+      #     workspace: ${{ github.workspace }}
+      #     diff-files: ${{ steps.files.outputs.added_modified }}
 
 
