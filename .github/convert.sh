@@ -6,7 +6,7 @@ cd /github/workspace
 
 echo "Hello " "$@"
 
-for file in "${@:2}"
+for file in "$@"
 do
   echo "file is " $file
   if [[ ${file} =~ \.(mscx)$ ]]; then
