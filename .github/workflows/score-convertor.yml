@@ -32,15 +32,16 @@ jobs:
           format: 'space-delimited'
 
       - name: Convert score to images
-        # runs:
-        #   using: 'docker'
-        #   image: 'Dockerfile'
-        #   args:
-        #     - ${{ github.workspace }}
-        #     - ${{ steps.files.outputs.added_modified }}
         uses: ./ # Uses an action in the root directory
         id: convert
         with:
           diff-files: ${{ steps.files.outputs.added_modified }}
 
+      - name: check for changes
+        run: git status  
 
+      - name: stage changed files
+        run: git add .  
+
+      - name: commit changed files
+        run: git commit -m "Auto update"
