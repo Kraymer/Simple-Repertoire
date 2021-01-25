@@ -14,8 +14,8 @@ for file in "${arr[@]}"
 do
 
   if [[ ${file} =~ \.(mscx)$ ]]; then
-    filedir=${a%/*}
-    filename=${a##*/}
+    filedir=${file%/*}
+    filename=${file##*/}
   	${MUSESCORE} --export-to ${OUTPUT_DIR}/out.png ${file}
     cd ${OUTPUT_DIR}
     cmd="convert -append "
