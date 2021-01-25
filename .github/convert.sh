@@ -1,20 +1,22 @@
 #!/bin/bash
 set -x
+
 export QT_QPA_PLATFORM=offscreen
 MUSESCORE=/usr/local/bin/musescore
+OUTPUT_DIR=/tmp/simplerep
 
-repo_path=$1
-#cd /github/workspace
-
+mkdir ${OUTPUT_DIR}
 
 read -ra arr <<<"$@"
 for a in ; do echo "[$a]"; done
 
 for file in "${arr[@]}"
 do
-  echo "file is " $file
+
   if [[ ${file} =~ \.(mscx)$ ]]; then
-  	echo ${file}
-  	${MUSESCORE} --export-to out.png ${file}
+  	${MUSESCORE} --export-to ${OUTPUT_DIR}/out.png ${file}
   fi
+  
+ls ${OUTPUT_DIR}
+
 done
