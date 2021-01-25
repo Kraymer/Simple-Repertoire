@@ -19,7 +19,7 @@ do
   	${MUSESCORE} --export-to ${OUTPUT_DIR}/out.png ${file}
     cd ${OUTPUT_DIR}
     cmd="convert -append "
-    for png in `ls -A1`
+    for png in `ls -A1 out*png`
     do
         convert ${png} -trim +repage trim-${png}
         cmd+=" spacer_260.png trim-${png}"
