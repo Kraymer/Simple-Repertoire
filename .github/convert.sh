@@ -28,7 +28,7 @@ do
     cmd+=" ${filename_noext}.png"
     $cmd
     ls /github/workspace/
-    cp ${filename}.png /github/workspace/${filedir}
+    cp ${filename_noext}.png /github/workspace/${filedir}
   fi
   
 
