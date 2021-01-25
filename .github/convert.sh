@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 export QT_QPA_PLATFORM=offscreen
-MUSESCORE="./build.release/mscore/mscore"
+MUSESCORE=/usr/local/bin/musescore
 
 repo_path=$1
 #cd /github/workspace
