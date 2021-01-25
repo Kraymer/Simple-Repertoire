@@ -15,8 +15,13 @@ do
 
   if [[ ${file} =~ \.(mscx)$ ]]; then
   	${MUSESCORE} --export-to ${OUTPUT_DIR}/out.png ${file}
+    cd ${OUTPUT_DIR}
+    for file in `ls -A1`
+    do
+        convert ${file} -trim +repage trim-${file}.png
+    done
+
   fi
   
-ls ${OUTPUT_DIR}
 
 done
