@@ -1,10 +1,10 @@
 #!/bin/bash
 set -x
-
+export QT_QPA_PLATFORM=offscreen
 MUSESCORE="./build.release/mscore/mscore"
 
 repo_path=$1
-cd /github/workspace
+#cd /github/workspace
 
 
 read -ra arr <<<"$@"
