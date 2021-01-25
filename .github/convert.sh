@@ -26,7 +26,8 @@ do
     done
     cmd+=" ${filename}.png"
     $cmd
-    cp ${filename}.png ${filedir}
+    ls /github/workspace/
+    cp ${filename}.png /github/workspace/${filedir}
   fi
   
 
