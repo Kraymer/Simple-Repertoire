@@ -2,8 +2,9 @@
 FROM kraymer/musescore:3.6
 
 
-# Copies your code file from your action repository to the filesystem path `/` of the container
-COPY .github/convert.sh /convert.sh
+RUN mkdir /tmp/simplerep
+COPY .github/convert.sh /tmp/simplerep/convert.sh
+COPY .github/spacer_260.png /tmp/simplerep/spacer_260.png
 
 # Executes `entrypoint.sh` when the Docker container starts up
-ENTRYPOINT ["/convert.sh"]
+ENTRYPOINT ["/tmp/simplerep/convert.sh"]
