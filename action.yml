@@ -1,0 +1,17 @@
+# action.yml
+name: '.mscx converter'
+description: 'convert .mscx to png and pdf'
+inputs:
+  diff-files:
+    description: 'List of modified files'
+    required: true
+    default: ''
+
+# outputs:
+#   time: # id of output
+#     description: 'The time we greeted you'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.diff-files }}
