@@ -6,7 +6,7 @@ name: Score sheet convertor
 on: [pull_request]
 
 jobs:
-  hello_world_job:
+  score_sheet_exporter:
     runs-on: ubuntu-latest
     name: A job to convert score sheets
 
@@ -37,16 +37,8 @@ jobs:
         with:
           diff-files: ${{ steps.files.outputs.added_modified }}
 
-      - name: Commit files
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m "Add changes" -a
-          git fetch
-          
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - uses: gr2m/create-or-update-pull-request-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.head_ref }}
+          author: "Exporter bot"
