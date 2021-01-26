@@ -30,6 +30,6 @@ Ready to contribute and share your favourite score ? Great !
 
 | Category | Song | Editor | Status |
 |  ---     | ---  | ---    | ---    |
-| Intermediate III | [Queen - Somebody to love](https://github.com/Kraymer/SimpleRepertoire/tree/main/Repertoire/16-Intermediate_III/Queen-Somebody_to_love) | kraymer | ![](https://img.shields.io/badge/Completed-need%20review-yellow.svg) |
+| Intermediate III | [Queen - Somebody to love](https://github.com/Kraymer/SimpleRepertoire/tree/main/Repertoire/16-Intermediate_III/Queen-Somebody_to_love) | kraymer | ![](https://img.shields.io/badge/Sheet-need%20review-yellow.svg) ![](https://img.shields.io/badge/Fingering-Done-green.svg) |
 
 
