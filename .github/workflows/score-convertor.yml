@@ -17,10 +17,14 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # To use this repository's private action,
-      # you must check out the repository
-      - name: Checkout
+      - name: Checkout 
         uses: actions/checkout@v2
+
+      - name: Get branch name
+        uses: mdecoleman/pr-branch-name@1.0.0  #
+        id: vars
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get changed files
         id: files
@@ -42,4 +46,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           author: "Exporter bot <no-reply@kray.me>"
+          branch: ${{ steps.vars.outputs.branch }}
           commit-message: "Auto-generated files"
