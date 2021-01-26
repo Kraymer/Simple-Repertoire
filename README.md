@@ -14,17 +14,17 @@ With SimpleRepertoire you'll have access to the exact same sheet available in a 
 
 ### Editing a score sheet
 
-I use [MuseScore 3.6](https://musescore.org/en/3.6) to edit score sheets, it's cross-platform and has great UX.
+I use [MuseScore 3.6](https://musescore.org/en/3.6) to edit score sheets, it's cross-platform and has great UX.  
 For the sake of simplicity, only uncompressed MuseScore 3 files (.mscx) will be accepted for contributions.
 
 ### Uploading a score sheet 
 
 Ready to contribute and share your favourite score ? Great ! 
 
-1. Start by opening a Pull Request titled _`WIP: <Artist> - <Song>`_ to "lock" this song
+1. Start by opening a Pull Request titled _`WIP: <Artist> - <Song>`_ to _lock_ the song
 1. The PR should consists of one single uncompressed MuseScore 3 file (.mscx) obeying the following naming convention : 
    `Repertoire/<category>/<Artist>-<Song>/<Artist>-<Song>.mscx`
-1. Add commits over time and remove the _`WIP: `_ prefix from the PR title to signal completeness
+1. Add commits over time and remove the _`WIP: `_ prefix from the PR title when it's ready to signal completeness
 
 ## Repertoire listing
 
