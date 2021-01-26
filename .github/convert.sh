@@ -20,6 +20,7 @@ do
     filename="${file##*/}"
     filename_noext="${filename%.*}"
   	${MUSESCORE} --export-to ${OUTPUT_DIR}/out.png ${file}
+    ${MUSESCORE} --export-to ${OUTPUT_DIR}/${filename_noext}.pdf ${file}
     cd ${OUTPUT_DIR}
     cmd="convert -append -background WhiteSmoke -alpha remove -alpha off "
     for png in `ls -A1 out*png`
@@ -31,6 +32,7 @@ do
     $cmd
     ls /github/workspace/
     cp ${filename_noext}.png /github/workspace/${filedir}
+    cp ${filename_noext}.pdf /github/workspace/${filedir}
   fi
   
 done
