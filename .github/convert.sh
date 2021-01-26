@@ -1,11 +1,13 @@
 #!/bin/bash
-set -x
+
+# Extract musescore sheet file from filenames given in argument.
+# Export sheet to png files and stitch them vertically to obtain a single sheet
+# image. 
+
 
 export QT_QPA_PLATFORM=offscreen
 MUSESCORE=/usr/local/bin/musescore
 OUTPUT_DIR=/tmp/simplerep
-
-mkdir ${OUTPUT_DIR}
 
 read -ra arr <<<"$@"
 for a in ; do echo "[$a]"; done
@@ -19,7 +21,7 @@ do
     filename_noext="${filename%.*}"
   	${MUSESCORE} --export-to ${OUTPUT_DIR}/out.png ${file}
     cd ${OUTPUT_DIR}
-    cmd="convert -append "
+    cmd="convert -append -background WhiteSmoke -alpha remove -alpha off "
     for png in `ls -A1 out*png`
     do
         convert ${png} -trim +repage trim-${png}
@@ -31,6 +33,5 @@ do
     cp ${filename_noext}.png /github/workspace/${filedir}
   fi
   
-
 done
 
