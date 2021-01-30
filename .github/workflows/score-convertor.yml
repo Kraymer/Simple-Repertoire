@@ -17,7 +17,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Checkout 
+      - name: Checkout
         uses: actions/checkout@v2
 
       - name: Get branch name
@@ -43,7 +43,7 @@ jobs:
 
       - uses: gr2m/create-or-update-pull-request-action@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.CREATE_UPDATE_PR_ACTION_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           author: "Exporter bot <no-reply@kray.me>"
           branch: ${{ steps.vars.outputs.branch }}
