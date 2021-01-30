@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.0</programVersion>
-  <programRevision>1977cb2</programRevision>
+  <programRevision>1977cb3</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -49,8 +49,11 @@
       <slurMidWidth>0.21</slurMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
+      <showFooter>0</showFooter>
+      <evenFooterL></evenFooterL>
       <evenFooterC></evenFooterC>
       <oddFooterC></oddFooterC>
+      <oddFooterR></oddFooterR>
       <voltaLineWidth>0.11</voltaLineWidth>
       <ottavaLineWidth>0.11</ottavaLineWidth>
       <ottavaFontFace>Edwin</ottavaFontFace>
@@ -1144,14 +1147,6 @@
             </Chord>
           </voice>
         </Measure>
-      <VBox>
-        <height>3.5</height>
-        <boxAutoSize>0</boxAutoSize>
-        <Text>
-          <align>center,top</align>
-          <text><font size="12"></font>Tears in heaven</text>
-          </Text>
-        </VBox>
       <Measure>
         <voice>
           <Rest>
