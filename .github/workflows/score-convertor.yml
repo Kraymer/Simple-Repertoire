@@ -43,7 +43,7 @@ jobs:
 
       - uses: gr2m/create-or-update-pull-request-action@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CREATE_UPDATE_PR_ACTION_TOKEN }}
         with:
           author: "Exporter bot <no-reply@kray.me>"
           branch: ${{ steps.vars.outputs.branch }}
