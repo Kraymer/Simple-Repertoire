@@ -1414,6 +1414,9 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <text>4</text>
+                </Fingering>
               <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
@@ -1439,6 +1442,9 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1463,6 +1469,10 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <size>12</size>
+                <text>2</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
