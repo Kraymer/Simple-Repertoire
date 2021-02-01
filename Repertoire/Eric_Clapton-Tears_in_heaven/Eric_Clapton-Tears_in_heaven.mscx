@@ -379,8 +379,8 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -1080,13 +1080,37 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1096,6 +1120,14 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1385,6 +1417,9 @@
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
+              <Fingering>
+                <text>3</text>
+                </Fingering>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -1460,8 +1495,21 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1471,8 +1519,16 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -2230,12 +2286,15 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <Fingering>
                 <size>12</size>
                 <text>3</text>
                 </Fingering>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
               </Note>
             <Note>
               <Accidental>
@@ -2252,6 +2311,9 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <Fingering>
                 <text>3</text>
                 </Fingering>
@@ -2429,11 +2491,14 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <Fingering>
                 <text>3</text>
                 </Fingering>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
               </Note>
             <Note>
               <Fingering>
