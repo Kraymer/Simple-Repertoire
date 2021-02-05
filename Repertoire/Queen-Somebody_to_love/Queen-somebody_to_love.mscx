@@ -21,6 +21,7 @@
       <repeatBarlineDotSeparation>0.7</repeatBarlineDotSeparation>
       <bracketWidth>0.44</bracketWidth>
       <stemWidth>0.11</stemWidth>
+      <measureSpacing>1.5</measureSpacing>
       <staffLineWidth>0.11</staffLineWidth>
       <ledgerLineLength>0.35</ledgerLineLength>
       <hairpinWidth>0.12</hairpinWidth>
@@ -1063,6 +1064,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -1514,6 +1518,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -3363,6 +3370,8 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
