@@ -1145,22 +1145,31 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1170,15 +1179,18 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
