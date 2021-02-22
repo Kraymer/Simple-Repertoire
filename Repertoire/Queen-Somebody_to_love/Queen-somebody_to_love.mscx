@@ -4387,16 +4387,10 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <Fingering>
-                <text>5</text>
-                </Fingering>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
             <Note>
-              <Fingering>
-                <text>1</text>
-                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
