@@ -2115,6 +2115,9 @@
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Fingering>
+                <text>5</text>
+                </Fingering>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -2122,6 +2125,9 @@
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
+              <Fingering>
+                <text>2</text>
+                </Fingering>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
